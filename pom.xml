@@ -1,0 +1,53 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.github.seregamorph</groupId>
+        <artifactId>maven-turbo-reactor-parent</artifactId>
+        <version>0.1</version>
+    </parent>
+
+    <artifactId>maven-simple-parallel-builder</artifactId>
+    <name>maven-simple-parallel-builder</name>
+    <description>
+        Maven extension to run tests with maximum parallelism
+    </description>
+
+    <url>https://github.com/maven-turbo-reactor/maven-simple-parallel-builder</url>
+
+    <developers>
+        <developer>
+            <id>seregamorph</id>
+            <name>Sergey Chernov</name>
+            <email>serega.morph[at]gmail.com</email>
+        </developer>
+    </developers>
+
+    <scm>
+        <url>https://github.com/maven-turbo-reactor/maven-simple-parallel-builder</url>
+        <connection>scm:git:git@github.com:maven-turbo-reactor/maven-simple-parallel-builder.git</connection>
+        <developerConnection>scm:git:git@github.com:maven-turbo-reactor/maven-simple-parallel-builder.git</developerConnection>
+    </scm>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.maven</groupId>
+            <artifactId>maven-core</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+        </dependency>
+    </dependencies>
+</project>
