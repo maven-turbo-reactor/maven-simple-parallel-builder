@@ -7,7 +7,7 @@ To set up the extension
 ```xml
 <extensions>
     <extension>
-        <!-- https://github.com/seregamorph/maven-surefire-cached -->
+        <!-- https://github.com/maven-turbo-reactor/maven-simple-parallel-builder -->
         <groupId>com.github.seregamorph</groupId>
         <artifactId>maven-simple-parallel-builder</artifactId>
         <version>0.5</version>
