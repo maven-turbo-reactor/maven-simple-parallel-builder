@@ -9,7 +9,7 @@
     </parent>
 
     <artifactId>maven-simple-parallel-builder</artifactId>
-    <version>0.6-SNAPSHOT</version>
+    <version>0.7-SNAPSHOT</version>
     <name>maven-simple-parallel-builder</name>
     <description>
         Maven extension to run tests with maximum parallelism
