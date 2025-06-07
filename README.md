@@ -10,7 +10,7 @@ To set up the extension
         <!-- https://github.com/maven-turbo-reactor/maven-simple-parallel-builder -->
         <groupId>com.github.seregamorph</groupId>
         <artifactId>maven-simple-parallel-builder</artifactId>
-        <version>0.5</version>
+        <version>0.6</version>
     </extension>
 </extensions>
 ```
